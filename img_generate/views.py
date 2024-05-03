@@ -21,4 +21,4 @@ def index(request):
             "negative_prompt": negativePrompt
         }
     )
-    return JsonResponse({"data": output})
+    return JsonResponse({"success": True, "data": output})
